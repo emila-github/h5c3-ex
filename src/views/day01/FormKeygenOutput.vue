@@ -1,0 +1,27 @@
+<template>
+  <div>
+    <form action="">
+      用户名：<input type="text" name="userName" /><br />
+      密码：<input type="password" name="userPwd" /> <br />
+      加密：<keygen></keygen><br />
+      <input type="submit" />
+    </form>
+
+    <!--显示输出信息：只能显示不能修改
+1.语义性更强
+2.值需要你去设置，不能自动计算-->
+    <output>总金额：￥100.00</output>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'FormEx',
+  metaInfo: {
+    title: '07-HTML5-新增的表单元素2',
+  },
+  mounted() {},
+}
+</script>
+
+<style lang="scss" scoped></style>

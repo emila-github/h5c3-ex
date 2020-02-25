@@ -9882,6 +9882,13 @@ vue-loader@^15.8.3:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-meta@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.npm.taobao.org/vue-meta/download/vue-meta-2.3.2.tgz#d87a456582da040ff7bc9304701cca47ac36ee1e"
+  integrity sha1-2HpFZYLaBA/3vJMEcBzKR6w27h4=
+  dependencies:
+    deepmerge "^4.2.2"
+
 vue-router@^3.1.5:
   version "3.1.5"
   resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-3.1.5.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-router%2Fdownload%2Fvue-router-3.1.5.tgz#ff29b8a1e1306c526b52d4dc0532109f16c41231"

@@ -1,0 +1,35 @@
+<template>
+  <div>
+    <!--定义-->
+    <!--规范：
+      1.data-开头
+      2.data-后必须至少有一个字符，多个单词使用-连接
+      建议：
+      1.名称应该都使用小写--不要包含任何的大写字符
+      2.名称中不要有任何的特殊符号
+      3.名称不要副作用纯数字-->
+    <p data-school-name="itcast">传智播客</p>
+    <p data-name="itcast">传智播客</p>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'DatasetEx',
+  metaInfo: {
+    title: '14-HTML5-自定义属性',
+  },
+  mounted() {
+    window.onload = function() {
+      var p = document.querySelector('p')
+      /*获取自定义属性值*/
+      /*将data-后面的单词使用camel命名法连接:必须使用camel合法法获取值否则有可能无法获取到值*/
+      //var value=p.dataset["schoolname"];//data-schoolname
+      var value = p.dataset['schoolName'] //data-school-name
+      console.log(value)
+    }
+  },
+}
+</script>
+
+<style lang="scss" scoped></style>
