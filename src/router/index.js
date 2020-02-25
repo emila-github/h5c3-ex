@@ -17,6 +17,11 @@ export const pages = [
   ['/day01/dom', '/day01/Dom'],
   ['/day01/dom-query-selector', '/day01/DomQuerySelector'],
   ['/day01/dataset', '/day01/Dataset'],
+
+  ['/day02/net-work', '/day02/NetWork'],
+  ['/day02/full-screen', '/day02/FullScreen'],
+  ['/day02/file-reader', '/day02/FileReader'],
+  ['/day02/draggabler', '/day02/Draggable'],
 ]
 
 const routes = [
